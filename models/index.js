@@ -1,6 +1,7 @@
-//import User model
+//import User, Post model
 const User = require('./User');
+const Post = require('./Post');
 
 
 //export object
-module.exports = { User };
+module.exports = { User, Post };

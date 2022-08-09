@@ -1,5 +1,6 @@
 // dependacies
 const router = require("express").Router();
+//import 
 const { User } = require("../../models");
 
 //Create(post) Receive(get) Update(put) Delete(delete)
