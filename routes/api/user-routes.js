@@ -73,7 +73,7 @@ router.post('/login', (req, res) => {
       res.status(400).json({ message: 'Incorrect password! '});
       return;
     }
-    res.json({ user: dbUserData, message: 'You are not logged in!' });
+    res.json({ user: dbUserData, message: 'You are now logged in!' });
   });
 });
 
