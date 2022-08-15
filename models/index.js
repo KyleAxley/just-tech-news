@@ -3,7 +3,6 @@ const User = require('./User');
 const Post = require('./Post');
 const Vote = require('./Vote');
 const Comment = require('./Comments');
-const { post } = require('../routes');
 
 //create associations between tables using foreign key 'user_id'
 User.hasMany(Post, {
